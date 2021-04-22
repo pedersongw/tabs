@@ -1,6 +1,16 @@
-h1 {
+
+  .tab {
+    height: 300px;
+    width: 500px;
+    background-color: salmon;
     position: fixed;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  h1 {
+    position: fixed;
+    top: 25%;
+    left: 25%;
     transform: translate(-50%, -50%);
   }
