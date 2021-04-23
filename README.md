@@ -7,3 +7,5 @@ The challenge is to create a set of tabs that can be used as buttons in a naviga
 I used div elements instead of button elements, though I've read some material that suggests it is better to use button elements.
 
 When a click event on a div-button bubbles outward and reaches an event listener on the body a function determines the event target. If it was any button all content-divs have their display attribute set to none, and the div that corresponds to the clicked button has its display attribute set to whatever will make it visible in context.
+
+The div-button that is highlighted is not controlled by javascript. It is set by inline CSS. If a content-div is visible then its set of buttons will be visible. Each content-div has a highlighted button that corresponds with its own number, whether or not the content-div is currently visible.
