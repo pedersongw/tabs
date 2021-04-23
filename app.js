@@ -2,21 +2,42 @@ window.onload = function() {
     document.getElementById("tab1").style.display = "block";
     document.getElementById("tab-holder1").style.display = "flex";
 }
-/*
+
 
 function goToTab1() {
-return true;
+    let all = document.querySelectorAll(".tab, .tab-holder");
+    for (let i = 0; i < all.length; i++) {
+        all[i].style.display = "none";
+    }
+    document.getElementById("tab1").style.display = "block";
+    document.getElementById("tab-holder1").style.display = "flex";
+
 }
 function goToTab2() {
-return true;
+    let all = document.querySelectorAll(".tab, .tab-holder");
+    for (let i = 0; i < all.length; i++) {
+        all[i].style.display = "none";
+    }
+    document.getElementById("tab2").style.display = "block";
+    document.getElementById("tab-holder2").style.display = "flex";
 
 
 }
 function goToTab3() {
-return true;
+    let all = document.querySelectorAll(".tab, .tab-holder");
+    for (let i = 0; i < all.length; i++) {
+        all[i].style.display = "none";
+    }
+    document.getElementById("tab3").style.display = "block";
+    document.getElementById("tab-holder3").style.display = "flex";
 }
 function goToTab4() {
-   return true;
+    let all = document.querySelectorAll(".tab, .tab-holder");
+    for (let i = 0; i < all.length; i++) {
+        all[i].style.display = "none";
+    }
+    document.getElementById("tab4").style.display = "block";
+    document.getElementById("tab-holder4").style.display = "flex";
 
 }
 window.onclick = function(event) {
@@ -31,4 +52,3 @@ window.onclick = function(event) {
         goToTab4();
     }
 }
-*/

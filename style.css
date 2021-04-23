@@ -33,6 +33,7 @@
       background-color: rgb(77, 216, 130);
       justify-content: center;
       align-items: center;
+     font-weight: bold;
   }
   .early-tab {
     border-right: solid 2px;
