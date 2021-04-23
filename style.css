@@ -1,8 +1,10 @@
-
+    body {
+        background-color: lightcyan;
+    }
   .tab {
     height: 300px;
     width: 500px;
-    background-color: salmon;
+    background-color: rgb(185, 177, 223);
     position: fixed;
     top: 50%;
     left: 50%;
@@ -13,4 +15,35 @@
     top: 25%;
     left: 25%;
     transform: translate(-50%, -50%);
+  }
+  .big-text {
+    font-size: 35px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .tab-button {
+      height: 50px;
+      width: 25%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      box-sizing: border-box;
+      background-color: rgb(77, 216, 130);
+      justify-content: center;
+      align-items: center;
+  }
+  .early-tab {
+    border-right: solid 2px;
+  }
+  .highlighted {
+      background-color: rgb(228, 228, 228);
+  }
+ .tab-holder {
+      height: 50px;
+      display: flex;
+  }
+  .test {
+      font-size: 50px;
   }
